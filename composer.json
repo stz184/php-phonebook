@@ -1,0 +1,15 @@
+{
+    "require": {
+        "mikecao/flight": "^1.2",
+        "jakeasmith/http_build_url": "^1",
+        "giggsey/libphonenumber-for-php": "7.0.6",
+        "phpunit/phpunit": "4.7.2"
+    },
+    "autoload": {
+      "psr-0": {"": "vendor/"},
+      "psr-4": {
+        "controllers\\": "controllers/",
+        "models\\": "models/"
+      }
+    }
+}
